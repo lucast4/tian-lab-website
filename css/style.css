@@ -161,6 +161,11 @@ p, li {
 
 .hero h1 {
   max-width: 875px;
+  margin: 0 auto 0.4rem;
+}
+
+.hero-subtitle {
+  color: var(--text-muted);
   margin: 0 auto 1rem;
 }
 
