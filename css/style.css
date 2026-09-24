@@ -7,6 +7,7 @@
   --text-muted: #6b6459;
   --accent: #503c7d;
   --accent-dark: #3a2d5c;
+  --violet: #7c3aed;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --size-heading: 1.75rem;
   --size-content: 1.15rem;
@@ -189,6 +190,18 @@ p, li {
 
 .hero-text p:last-child {
   margin-bottom: 0;
+}
+
+.join-cta {
+  margin: 0 0 1rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.join-cta a {
+  color: var(--violet);
 }
 
 /* Plain content sections (no cards/panels) */
@@ -451,6 +464,10 @@ section {
   text-align: center;
 }
 
+.join-section.sub h3 {
+  font-size: 1.3rem;
+}
+
 /* Footer */
 
 .site-footer {
@@ -466,6 +483,15 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 0.75rem;
+}
+
+.site-footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  color: var(--accent);
 }
 
 /* Responsive */
